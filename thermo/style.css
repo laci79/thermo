@@ -110,7 +110,7 @@ input[type=number] {
     width: 0.625em;
     background-image: linear-gradient(hsl(0, 0%, 0%) 0.1em, hsla(0, 0%, 0%, 0) 0.1em);
     background-size: 0.8em 1.7em;
-    margin-right: 0.8em;
+    margin-right: 0.5em;
     margin-top: 1.7em;
 }
 
@@ -149,12 +149,24 @@ input[type=number] {
     transition: 1s all ease-in-out
 }
 
-.bulb {
+.bulb-border {
     width: 2em;
     height: 2em;
-    border-radius: 1em;
+    border-radius: 50%;
     background: #ba101e;
     position: absolute;
-    top: 16.8em;
-    left: 2.55em;
+    left: -0.55em;
+    top: 12.8em;
+    border: 1px solid black;
 }
+
+/*.bulb {*/
+/*    width: 2em;*/
+/*    height: 2em;*/
+/*    border-radius: 1em;*/
+/*    background: #ba101e;*/
+/*    position: absolute;*/
+/*    left: -0.5em;*/
+/*    top: 13em;*/
+/*    display: none;*/
+/*}*/

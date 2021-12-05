@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputfield2 = document.getElementById("fahrenheit");
     const myform = document.getElementById("my-form");
 
-
     document.getElementById("celsius").oninput = () => {
 
         inputfield2.value = +(inputfield1.value * 9 / 5 + 32).toFixed(2);
@@ -14,16 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             $('#div').animate({height: 66})
         }
-
-        // if(inputfield1.value <= 0) {
-        //     myform.style.background = "blue";
-        // }
-        // else  if(inputfield1.value > 0 && inputfield1.value < 100) {
-        //     myform.style.background = "yellow";
-        // }
-        // else if(inputfield1.value > 100 ) {
-        //     myform.style.background = "red";
-        // }
     }
 
     document.getElementById("fahrenheit").oninput = () => {
