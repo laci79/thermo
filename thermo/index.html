@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celsius - Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="celsius-fahrenheit-conv.js"></script>
+</head>
+<body>
+<form class="my-form" id="my-form">
+    <label>Celsius: </label>
+    <input type="number" id="celsius" step=".01">
+    <label>Fahrenheit: </label>
+    <input type="number" id="fahrenheit" step=".01">
+</form>
+
+<section class="thermo-wrapper">
+
+    <div class="thermometer">
+        <div class="c-label">°C</div>
+        <div class="f-label">°F</div>
+
+        <div class="celsius-labels-wrapper">
+            <div class="celsius-label">150</div>
+            <div class="celsius-label">100</div>
+            <div class="celsius-label">50</div>
+            <div class="celsius-label">0</div>
+            <div class="celsius-label">-50</div>
+        </div>
+        <div class="celsius-scale"></div>
+
+        <div class="thermo-column">
+            <div class="mercury" id="div"></div>
+        </div>
+
+        <div class="fahrenheit-scale"></div>
+        <div class="fahrenheit-labels-wrapper">
+            <div class="fahrenheit-label">300</div>
+            <div class="fahrenheit-label">250</div>
+            <div class="fahrenheit-label">200</div>
+            <div class="fahrenheit-label">150</div>
+            <div class="fahrenheit-label">100</div>
+            <div class="fahrenheit-label">50</div>
+            <div class="fahrenheit-label">0</div>
+            <div class="fahrenheit-label">-50</div>
+        </div>
+        <div class="bulb"></div>
+    </div>
+
+</section>
+
+</body>
+</html>
